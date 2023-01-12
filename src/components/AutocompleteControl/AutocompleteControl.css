@@ -1,0 +1,7 @@
+.auto-control {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto 50px auto;
+    justify-content: space-evenly;
+}
