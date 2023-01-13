@@ -53,7 +53,7 @@ export default class AutocompleteControl extends React.Component {
                     className='auto-control'
                     id="auto-complete-control-2"
                     sx={{ width: 500 }}
-                    options={store.autoCompleteCountries2.slice(0, 5) as CountryType[]}
+                    options={store.autoCompleteCountries2.slice(0, 10) as CountryType[]}
                     autoHighlight
                     getOptionLabel={(option) => option.name}
                     renderOption={(props, option) => (
